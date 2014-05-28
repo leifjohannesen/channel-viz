@@ -12,9 +12,9 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
+	var defaultKey		= 'n0mklgDv80RPmSXiOzj1f3cvkIRjwSqjbPKaYLRqTSmIzGuy', // Unique master Xively API key to be used as a default
+		defaultFeeds	= ['336693 Effekt'], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Defined Energy', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
